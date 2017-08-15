@@ -1,0 +1,16 @@
+cffi==1.10.0
+click==6.7
+cryptography==1.7.2
+Flask==0.12.1
+idna==2.6
+itsdangerous==0.24
+Jinja2==2.9.6
+jwt==0.5.2
+MarkupSafe==1.0
+pyasn1==0.3.2
+pycparser==2.18
+PyGithub==1.35
+PyJWT==1.4.0
+six==1.10.0
+Werkzeug==0.12.2
+zappa=>0.43.2
