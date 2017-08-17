@@ -7,6 +7,11 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello World!'
 
+@app.route('/event_hook')
+def github_event_hook():
+    return {
+        'status': 'ok'}
+
 
 if __name__ == '__main__':
     app.run()
