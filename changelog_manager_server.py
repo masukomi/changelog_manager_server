@@ -12,6 +12,12 @@ def github_event_hook():
     return {
         'status': 'ok'}
 
+@app.route('/authorize')
+def github_authorize():
+    return {
+        'status' : 'ok'
+    }
+
 
 if __name__ == '__main__':
     app.run()
