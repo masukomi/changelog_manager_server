@@ -20,3 +20,4 @@ For example the file in this repo at
 ```
 
 If a file like that is present it will mark your PR with a successful check. If it is missing it will mark it with a failure (red X). That's it.
+
