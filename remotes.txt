@@ -1,0 +1,26 @@
+* remote priv
+  Fetch URL: git@github.com:eliziario/clm_private.git
+  Push  URL: git@github.com:eliziario/clm_private.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (fast-forwardable)
+* remote origin
+  Fetch URL: git@github.com:eliziario/changelog_manager_server.git
+  Push  URL: git@github.com:eliziario/changelog_manager_server.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (fast-forwardable)
+* remote azure
+  Fetch URL: https://changelog@changelogmanagerwebapp.scm.azurewebsites.net/changelogmanagerWebApp.git
+  Push  URL: https://changelog@changelogmanagerwebapp.scm.azurewebsites.net/changelogmanagerWebApp.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
