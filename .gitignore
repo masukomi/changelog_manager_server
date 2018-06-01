@@ -1,6 +1,7 @@
 log/*
 *.pem
 .idea/*
+terraform.tfvars
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml

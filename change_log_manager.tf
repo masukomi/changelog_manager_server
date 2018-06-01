@@ -1,6 +1,6 @@
 # First, we need a role to play with Lambda
-resource "aws_iam_role" "iam_role_for_lambda" {
-  name = "iam_role_for_lambda"
+resource "aws_iam_role" "changelog_manager_server" {
+  name = "changelog_manager_server"
 
   assume_role_policy = <<EOF
 {
@@ -24,7 +24,7 @@ module "lambda" {
   source  = "./lambda"
   name    = "hello_lambda"
   runtime = "python2.7"
-  role    = "${aws_iam_role.iam_role_for_lambda.arn}"
+  role    = "${aws_iam_role.changelog_manager_server.arn}"
 }
 
 # This is a second lambda function that will run the code
@@ -34,7 +34,7 @@ module "lambda_post" {
   name    = "hello_lambda"
   handler = "post_handler"
   runtime = "python2.7"
-  role    = "${aws_iam_role.iam_role_for_lambda.arn}"
+  role    = "${aws_iam_role.changelog_manager_server.arn}"
 }
 
 # Now, we need an API to expose those functions publicly
