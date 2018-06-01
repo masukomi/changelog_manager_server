@@ -17,7 +17,7 @@ import os
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 private_key_file = os.environ.get('GITHUB_APP_PRIVATE_KEY', 'clmanager.pem')
 private_key_file = os.path.join(APP_ROOT, private_key_file)
-GITHUB_APP_ID = os.environ.get('GITHUB_APP_ID', '4533')
+GITHUB_APP_ID = os.environ.get('GITHUB_APP_ID', '4249')
 RE_EXPR = re.compile('^\\.changelog_entries\\/[a-f0-9]{32}\\.json$')
 
 application = Flask(__name__)
